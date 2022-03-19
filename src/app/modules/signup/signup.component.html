@@ -1,1 +1,37 @@
-<p>signup works!</p>
+<div class="container">
+    <div class="signup-form">
+        <!-- {{signupForm.value | json}} -->
+        <form [formGroup]="signupForm" (ngSubmit)="submitSignupForm()">
+            <div class="form-group">
+                <h1>Create An Account</h1>
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="firstName" class="form-control"
+                formControlName="firstName">
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="lastName" class="form-control"
+                formControlName="lastName">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="form-control"
+                formControlName="email">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" class="form-control"
+                formControlName="password">
+            </div>
+            <div class="form-group">
+                <label for="mobileNumber">Mobile Number</label>
+                <input type="number" name="mobileNumber" id="mobileNumber" class="form-control"
+                formControlName="mobileNumber"
+                >
+            </div>
+            <div class="form-group mt-3">
+                <button type="submit" class="btn btn-success" [disabled]="signupForm.invalid">SignUp</button>
+            </div>
+        </form>
+    </div>
+</div>
