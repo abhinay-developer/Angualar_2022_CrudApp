@@ -29,7 +29,7 @@ password:string="Sai@1234";
  submitLoginForm(){
     if(this.loginForm.value.email==this.email&&this.loginForm.value.password==this.password){
       alert("Login Sucess");
-      this.route.navigate(['user-home']);
+      this.route.navigate(['admin-home']);
       sessionStorage.setItem('email',this.email);
       sessionStorage.setItem('password',this.password);
     }

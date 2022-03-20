@@ -1,44 +1,36 @@
 {
   "users": [
     {
-      "id": 1,
       "firstName": "sai",
       "lastName": "kiran",
       "email": "sailkiran@gmail.com",
       "password": "12345",
-      "mobileNumber:": "9900880099"
+      "mobileNumber": 9955665511,
+      "id": 1
     },
     {
-      "firstName": "abhinay",
+      "firstName": "abhi",
       "lastName": "galipally",
       "email": "abhinay@gmail.com",
-      "password": "Passwtyfytfy",
+      "password": "Abhinay@",
       "mobileNumber": 9988899988,
       "id": 2
     },
     {
-      "firstName": "vamshi",
-      "lastName": "gaddam",
-      "email": "vamshigaddam@gmail.com",
-      "password": "Gaddam@123",
-      "mobileNumber": 9988998899,
+      "firstName": "naresh",
+      "lastName": "reddy",
+      "email": "nareshreddy@gmail.com",
+      "password": "Naresh123",
+      "mobileNumber": 9988899988,
       "id": 3
     },
     {
-      "firstName": "karra",
-      "lastName": "naresh",
-      "email": "karranaresh@gmail.com",
-      "password": "Karra@123",
-      "mobileNumber": 9490002941,
+      "firstName": "pulle",
+      "lastName": "rajesh",
+      "email": "pulle@gmail.com",
+      "password": "Pulle123",
+      "mobileNumber": 955095506,
       "id": 4
-    },
-    {
-      "firstName": "raj",
-      "lastName": "pantham",
-      "email": "rajpantham@gmail.com",
-      "password": "Password",
-      "mobileNumber": 5566551111,
-      "id": 5
     }
   ]
 }

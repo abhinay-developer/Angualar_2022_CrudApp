@@ -9,6 +9,8 @@ import { HomeComponent } from './components/home/home.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { LogoutComponent } from './components/logout/logout.component';
+import { AdminHomeComponent } from './components/admin-home/admin-home.component';
+import { UpdateUserComponent } from './components/update-user/update-user.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { LogoutComponent } from './components/logout/logout.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    LogoutComponent
+    LogoutComponent,
+    AdminHomeComponent,
+    UpdateUserComponent
   ],
   imports: [
     BrowserModule,
