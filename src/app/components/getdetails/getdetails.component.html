@@ -1,0 +1,42 @@
+<div class="container m-5">
+
+    <div class="get-details">
+        <form>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <input type="number" name="id" id="id" class="form-control" [(ngModel)]="myId" placeholder="Enter Id">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <button type="button" (click)="onGetDetails()" class="btn btn-success">GET DETAILS</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <table class="table table-bordered m-5" *ngIf="hideTable">
+            <thead class="table-success">
+                <tr>
+                    <th>Id</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                    <th>Password</th>
+                    <th>Mobile Number</th>
+                </tr>
+            </thead>
+            <tbody *ngFor="let item of userArr">
+                <tr>
+                    <td>{{item.id}}</td>
+                    <td>{{item.firstName}}</td>
+                    <td>{{item.lastName}}</td>
+                    <td>{{item.email}}</td>
+                    <td>{{item.password}}</td>
+                    <td>{{item.mobileNumber}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

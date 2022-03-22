@@ -1,3 +1,4 @@
+import { GetdetailsComponent } from './components/getdetails/getdetails.component';
 import { UpdateUserComponent } from './components/update-user/update-user.component';
 import { AdminHomeComponent } from './components/admin-home/admin-home.component';
 import { LogoutComponent } from './components/logout/logout.component';
@@ -11,6 +12,8 @@ const routes: Routes = [
  {path:'home',component:HomeComponent},
  {path:'logout',component:LogoutComponent},
  {path:'admin-home',component:AdminHomeComponent},
+ {path:'get-details',component:GetdetailsComponent},
+
  {path:'update-user/:id',component:UpdateUserComponent},//route paramters
 
 

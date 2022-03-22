@@ -6,11 +6,12 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { LogoutComponent } from './components/logout/logout.component';
 import { AdminHomeComponent } from './components/admin-home/admin-home.component';
 import { UpdateUserComponent } from './components/update-user/update-user.component';
+import { GetdetailsComponent } from './components/getdetails/getdetails.component';
 
 @NgModule({
   declarations: [
@@ -20,13 +21,15 @@ import { UpdateUserComponent } from './components/update-user/update-user.compon
     HomeComponent,
     LogoutComponent,
     AdminHomeComponent,
-    UpdateUserComponent
+    UpdateUserComponent,
+    GetdetailsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
